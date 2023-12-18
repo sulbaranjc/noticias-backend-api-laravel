@@ -15,5 +15,5 @@ use App\Http\Controllers\NoticiaController;
 */
 
 
-route::apiResource('noticias', NoticiaController::class);
+//route::apiResource('noticias', NoticiaController::class);
 Route::get('/noticias/siguiente/{id?}', [NoticiaController::class, 'showSiguiente']);
